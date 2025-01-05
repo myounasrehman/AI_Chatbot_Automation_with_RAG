@@ -4,7 +4,7 @@ import logging
 import json
 from sentence_transformers import SentenceTransformer, util
 
-# API endpoint for the chatbot and configure thresholds for similarity and retrievals
+# API endpoint for the chatbot and configure thresholds for similarity and retrievalss
 OLLAMA_URL = "http://127.0.0.1:11434/api/chat"
 SIMILARITY_THRESHOLD = 0.3  # Adjust for response validation
 RETRIEVAL_THRESHOLD = 0.4  # Adjust for knowledge base retrieval
