@@ -37,7 +37,7 @@ This repository provides a Python-based solution to automate the testing of an A
 
 ## 2. Install Dependencies
 
-pip install -r requirements.txt
+pip install sentence-transformers requests
 
 ## 3. Run Ollama Server Ensure Ollama is installed and running on your machine. Set it up to use a model like llama2 or any compatible language model.
 
