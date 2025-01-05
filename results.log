@@ -1,0 +1,52 @@
+2025-01-05 13:53:32,907 - Starting chatbot testing with RAG...
+2025-01-05 13:53:32,907 - Knowledge base loaded.
+2025-01-05 13:53:46,843 - Test: Simple Greeting
+2025-01-05 13:53:46,843 - Result: PASS
+2025-01-05 13:53:46,843 - Response Time: 11.86 seconds
+2025-01-05 13:53:46,843 - Similarity Score: 96.94%
+2025-01-05 13:53:46,843 - Expected: Hello there! How are you today?
+2025-01-05 13:53:46,843 - Actual: Hi there! How are you today?
+
+2025-01-05 13:54:08,295 - Test: Return Policy
+2025-01-05 13:54:08,295 - Result: PASS
+2025-01-05 13:54:08,295 - Response Time: 7.37 seconds
+2025-01-05 13:54:08,295 - Similarity Score: 76.80%
+2025-01-05 13:54:08,295 - Expected: Items can be returned within 30 days.
+2025-01-05 13:54:08,295 - Actual: The return policy allows customers to return items within 30 days of delivery, provided they have a valid proof of purchase. The items must be returned in their original condition with all tags attached. However, final sale items are non-returnable.
+
+2025-01-05 13:54:53,318 - Test: Track Order
+2025-01-05 13:54:53,318 - Result: PASS
+2025-01-05 13:54:53,318 - Response Time: 5.92 seconds
+2025-01-05 13:54:53,318 - Similarity Score: 60.52%
+2025-01-05 13:54:53,318 - Expected: Please provide additional details to track your order.
+2025-01-05 13:54:53,318 - Actual: To track your order with order number 12345, you can follow these steps:
+
+1. Visit our website and navigate to the "Order Tracking" section.
+2. Enter your order number in the designated field and click on the "Track Order" button.
+3. You will be redirected to a page that displays the status of your order. You can also check the estimated delivery date and any updates or messages related to your order.
+
+Alternatively, if you have any questions or concerns about tracking your order, you can contact our customer support team for assistance. We are here to help you with any issue you may have.
+
+2025-01-05 13:57:16,089 - Test: Complex Query
+2025-01-05 13:57:16,089 - Result: PASS
+2025-01-05 13:57:16,089 - Response Time: 4.02 seconds
+2025-01-05 13:57:16,089 - Similarity Score: 56.44%
+2025-01-05 13:57:16,089 - Expected: The Roman Empire was founded...
+2025-01-05 13:57:16,089 - Actual: The Roman Empire, founded by Augustus Caesar in 27 BC, lasted for over 500 years until its fall in AD 476. During this time, Rome expanded its territories through conquests, establishing a vast network of provinces, colonies, and client states across Europe, North Africa, and the Middle East. The Empire was ruled by a complex system of governors, senators, and emperors, with power concentrated in the hands of the latter.
+
+The early years of the Empire saw significant military expansion under Augustus, Tiberius, and Claudius. The Pax Romana, or Roman Peace, lasted from 27 BC to AD 180, during which time the Empire experienced relative stability and prosperity. However, internal conflicts and external threats led to a series of civil wars, culminating in the Year of the Five Emperors in AD 69, when Rome was ruled by five different emperors.
+
+The 2nd and 3rd centuries saw the rise of the "five good emperors," Nerva, Trajan, Hadrian, Antoninus Pius, and Marcus Aurelius, who restored stability and prosperity to the Empire. However, the death of Marcus Aurelius in AD 180 marked the beginning of a period of decline, with internal conflicts, external threats, and economic troubles weakening the Empire.
+
+In the 4th century, the Empire faced numerous challenges, including the rise of Christianity, barbarian invasions, and civil wars. The fall of the Western Roman Empire in AD 476 marked the end of an era, with the Eastern Roman Empire, also known as the Byzantine Empire, surviving for another thousand years.
+
+In summary, the Roman Empire was founded by Augustus Caesar in 27 BC and lasted until its fall in AD 476, spanning over 500 years of history. During this time, the Empire expanded across Europe, North Africa, and the Middle East, experienced relative stability and prosperity during the Pax Romana, and faced numerous challenges and decline in the centuries that followed.
+
+2025-01-05 13:57:23,706 - Test: Edge Case: Empty Input
+2025-01-05 13:57:23,706 - Result: FAIL
+2025-01-05 13:57:23,706 - Response Time: 0.91 seconds
+2025-01-05 13:57:23,706 - Similarity Score: 27.85%
+2025-01-05 13:57:23,706 - Expected: I didn't catch that. Could you please rephrase?
+2025-01-05 13:57:23,706 - Actual: I'm not sure I understand what you are asking. Could you please provide more context or clarify your question?
+
+2025-01-05 13:57:23,706 - Chatbot testing completed.
